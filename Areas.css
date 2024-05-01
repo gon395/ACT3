@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(214, 214, 147);
+}
+header img{
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    min-width: 50%;
+    max-height: 100px;
+    margin-left: 25%;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+nav li{
+    display: inline-block;
+    border: 1.5px solid black;
+    width: 300px;
+    background: rgb(123, 123, 53);
+    margin: -3px;
+    text-align: center;
+}
+nav li:hover{
+    background-color: rgb(127, 194, 2);
+    color: black;
+}
+table{
+    height: 600px;
+    width: 1000px;
+    margin-left: 24.55%;
+    align-items: center;
+    text-align: center;
+}
+.tabla{
+    border: 200px;
+    border-radius: 20px;
+    border-color: black;
+    align-items: center;
+    text-align: center;
+}
+.productos{
+    font-size: 2.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: crimson;
+    width: 300px;
+    height: 350px;
+}
+.descrProd{
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: black;
+}
+.visita{
+    font-size: 2.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: crimson;
+    width: 300px;
+    height: 350px;
+}
+.descrVisita{
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: black;
+}
+.catas{
+    font-size: 2.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: crimson;
+    width: 300px;
+    height: 350px;
+}
+.descrCatas{
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: black;
+}
+.experiencia{
+    font-size: 2.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: crimson;
+    width: 300px;
+    height: 350px;
+}
+.descrExp{
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: black;
+}
+table img{
+    width: 200px;
+    height: 200px;
+}
+.imgVisita{
+    width: 400px;
+    height: 200px;
+}
+.imgExperiencia{
+    width: 400px;
+    height: 200px;
+}
+.copyright{
+    font-size: 1em;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+.circulo1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(2,112,108,0.386);
+    clip-path: circle(650px at left 200px);
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+.circulo2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(2,112,108,0.386);
+    clip-path: circle(650px at right 800px);
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+.copyright p{
+    color: black;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/LOGO.jpg" alt="cabecera" class="cabecera"></a>
+    </header>
+    <nav>
+        <ul class="accesos">
+            <li>
+                <a href="QuienesSomos.html">Quienes somos</a>
+            </li>
+            <li>
+                <a href="AreasDeActuacion.html">Áreas de actuación</a>
+            </li>
+            <li>
+                <a href="">Noticias</a>
+            </li>
+            <li>
+                <a href="">Publicaciones</a>
+            </li>
+            <li>
+                <a href="">Localización</a>
+            </li>
+            <li>
+                <a href="Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <div  class="contenido">
+        <p class="formulario">Formulario de contacto</p>
+        <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset class="datos">
+            <legend>Datos Personales</legend>
+                <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indique su nombre" required></p>
+                <p>Apellidos: <input type="text" name="apellidos" id="apellidos" placeholder="Indique sus apellidos" required></p>
+                <p>DNI/NIE: <input type="text" name="DNI" id="DNI" placeholder="Indique su DNI con letra" required></p>
+                <p>Correo electrónico: <input type="email" name="correo electrónico" id="mail" placeholder="Indique su correo electrónico" required></p>
+                <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento" id="fecha_de_nacimiento"></p>
+                <br>
+            <fieldset class="direccion">
+                <legend>Dirección  Postal:</legend>
+                    <p>Calle: <input type="text" name="calle" id="calle" placeholder="Calle o Av." required></p>
+                    <p>Número: <input type="text" name="número" id="numero" placeholder="Número" required></p>
+                    <p>Piso: <input type="text" name="piso" id="piso" placeholder="Piso"></p>
+                    <p>CP: <input type="text" name="CP" id="CP" placeholder="Código Postal" required></p>
+                    <p>Ciudad: <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad" required></p>
+            </fieldset>
+            </fieldset>
+            <br>
+            <p class="motivo">Motivo de contacto:
+                <select name="motivo" id="motivo" required>
+                    <option value=""></option>
+                    <option value="">Productos</option>
+                    <option value="">Visita guiada</option>
+                    <option value="">Experiencia hotelera</option>
+                    <option value="">Catas</option>
+                    <option value="">Otras</option>
+                </select>
+            </p>
+            <p class="comentarios">Comentarios:</p>
+            <p><textarea name="comentarios" id="comentarios" cols="50" rows="8" placeholder="Inserte su comentario..."></textarea></p>
+            <p><input type="submit" value="Enviar" class="botonera">
+                <input type="reset" value="Borrar" class="botonera">
+                <input type="file" name="Adjuntar" class="botonera2">
+            </p>
+        </form>
+        <ul class="imagenes">
+            <img src="img/Hotel.jpg" alt="Hotel" class="hotel">
+            <img src="img/Platanera.jpg" alt="cultivo" class="cultivo">
+            <img src="img/Aceite.png" alt="visita" class="aceite">
+        </ul>
+    </div>
+    <div class="copyright">
+        <p>&copy;Web de empresa simulada para asignatura de Legnguajes de DAW.</p>
+    </div>
+</body>
+</html>

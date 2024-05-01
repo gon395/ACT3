@@ -1,0 +1,129 @@
+body{
+    background: url(img/CultivoPlatanos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header img{
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    min-width: 50%;
+    max-height: 100px;
+    margin-left: 25%;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+nav li{
+    display: inline-block;
+    border: 1.5px solid black;
+    width: 300px;
+    background: rgb(123, 123, 53);
+    margin: -3px;
+    text-align: center;
+}
+nav li:hover{
+    background-color: rgb(127, 194, 2);
+    color: black;
+}
+.contenido{
+    margin-left: 100px;
+    margin-top: 50px;
+    max-width: 700px
+}
+.formulario{
+    font-size: 2.5em;
+    color: rgb(73, 43, 43);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    align-items: center;
+    font-style: oblique;
+    font-weight: 800;
+}
+.datos legend{
+    font-size: 1.5em;
+    background-color: rgb(207, 207, 62);
+    color: darkblue;
+    font-style: italic;
+    font-weight: 700;
+}
+.datos p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.motivo{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.comentarios{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.contenido textarea{
+    width: 700px;
+    height: 150px;
+}
+input{
+    width: 50%
+}
+.botonera{
+    width: 80px;
+}
+.botonera2{
+    width: 300px;
+}
+.imagenes{
+    left: 1100px;
+    top: 50px;
+}
+.hotel{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100px;
+    top: 200px;
+    right: 520px;
+}
+.cultivo{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100px;
+    top: 480px;
+    right: 100px
+}
+.aceite{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100px;
+    top: 650px;
+    right: 520px
+}
+.copyright{
+    font-size: 1em;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+.copyright p{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
